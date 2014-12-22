@@ -63,7 +63,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #555;
 }
 
 hr.star-light:after {
@@ -88,7 +88,7 @@ header {
     text-align: center;
     color: #fff;
     /*background: #18bc9c;*/
-    background-image: url(../img/homebackground.jpg);
+    background-image: url(../img/homebackground.png);
     background-size: cover;
 }
 
@@ -105,21 +105,24 @@ header img {
 header .intro-text .name {
     text-transform: lowercase;
     display: block;
+    color: #555;
     font-family: "Source Sans Pro",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.75em;
     font-weight: 200;
 }
 
-header .intro-text .skills {
+header .intro-text .role {
     font-family: "Roboto",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.25em;
+    color: #555;
     font-weight: 100;
 }
 
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        /*padding-bottom: 100px;*/
+        padding-bottom: 110px;
     }
 
     header .intro-text .name {
@@ -195,13 +198,14 @@ section {
     padding: 100px 0;
 }
 
+ #contact {
+    padding: 0;
+    margin: 0;
+}
+
 section h2 {
     margin: 0;
     font-size: 2.5em;
-}
-
-section.success {
-    color: #555;
 }
 
 @media(max-width:767px) {
@@ -496,12 +500,16 @@ footer .footer-below {
     font-style: italic;
 }
 
+#about p {
+    color: #555;
+}
+
 #skills {
     background-color: #f2f2f2;
 }
 
 .skill-item {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .skill-item .skill-content {
