@@ -496,3 +496,40 @@ footer .footer-below {
 .normal-link {
     font-style: italic;
 }
+
+.skill-item {
+    margin-bottom: 40px;
+}
+
+.skill-item .skill-content {
+    text-align: center;
+}
+
+.skill-item .skill-content .skill-border {
+    background-color: #337ab7;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.skill-item .skill-content .skill-border .skill-icon {
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 !important;
+}
+
+.skill-item .skill-content .skill-border h4 {
+    margin-top: 20px;
+}
+
+.skill-item .skill-content .skill-border .skill-icon i {
+    vertical-align: middle;
+}
